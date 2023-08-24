@@ -1,0 +1,36 @@
+.cardFlag {
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 15px 30px -15px rgba(99, 99, 99, 0.2);
+  width: 100%;
+}
+
+.cardBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 0px 30px 15px;
+}
+
+ul {
+  font-weight: bold;
+}
+
+.info {
+  font-weight: normal;
+}
+
+@media (min-width: 768px) {
+  .cardFlag {
+    height: 100px;
+    width: 100%;
+  }
+
+  ul {
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .cardHeader {
+    font-size: 20px;
+  }
+}

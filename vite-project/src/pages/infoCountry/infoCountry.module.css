@@ -1,0 +1,101 @@
+.languageLi {
+  display: flex;
+  gap: 10px;
+}
+
+.infoCountryContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  margin: auto;
+}
+.bigContainer {
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fafafa;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.infoCountryFlag {
+  width: 100%;
+}
+
+.infoPart {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.borderCountries {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.borderCountry {
+  font-weight: normal;
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 3px 30px;
+}
+
+.infoSpan {
+  font-weight: normal;
+}
+
+.backBtn {
+  font-weight: normal;
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 3px 20px;
+  width: 80px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.ulCont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.borderCont {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+@media (min-width: 768px) {
+  .infoCountryContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .infoCountryFlag {
+    width: 40%;
+    height: 300px;
+  }
+
+  .ulCont {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .borderCont {
+    flex-direction: row;
+  }
+}
